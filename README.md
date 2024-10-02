@@ -22,7 +22,7 @@ This the advanced version of using AI to fill the forms
 - **Scikit-learn**: For machine learning utilities.
 
 
-project/
+AI-firm-filler-advanced/
 
 
 ├── main.py                       
