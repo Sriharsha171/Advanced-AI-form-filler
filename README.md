@@ -24,7 +24,7 @@ This the advanced version of using AI to fill the forms
 
 project/
 
-│
+
 ├── main.py                       
 ├── knowledge_base.py             
 ├── form_fields_extractor.py       
