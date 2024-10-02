@@ -34,6 +34,12 @@ AI-firm-filler-advanced/
 ├── ocr_utils.py                   
 └── utils.py                       
 
+## Set the directory as shown above.
+
+## run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
+
+
+
 ## Installation
 
 1. Clone the repository:
