@@ -2,14 +2,35 @@
 
 This the advanced version of using AI to fill the forms
 
-## steps
+## Features
 
-- convert the pdf to image.
-- Create knowledge db.
-- Use Open-cv and OCR to extract the information fom image.
-- Map the data from knowledge db to the fields.
-- Fill in the form by creating image overlay and converting it into a pdf.
+- Extracts form fields from PDF documents.
+- Maps extracted fields to a knowledge base using BERT for better accuracy.
+- Fills in the identified form fields with relevant data.
+- Supports image preprocessing for improved text extraction.
+- Outputs the filled PDF with data inserted in the correct fields.
 
-## Progress
+## Technologies Used
 
-But for now only the top 3 steps have been completed so it is partially completed but will finish this in some time.
+- **Python**: Programming language.
+- **PyMuPDF (fitz)**: For PDF processing.
+- **OpenCV**: For image processing.
+- **Pytesseract**: For optical character recognition (OCR).
+- **Pillow (PIL)**: For image manipulation.
+- **Transformers**: For natural language processing (BERT).
+- **NumPy**: For numerical operations.
+- **Scikit-learn**: For machine learning utilities.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AI-PDF-Filler.git
+   cd AI-PDF-Filler/src
+   
+
+
+
+
+
+
