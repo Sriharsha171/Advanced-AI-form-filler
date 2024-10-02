@@ -21,6 +21,18 @@ This the advanced version of using AI to fill the forms
 - **NumPy**: For numerical operations.
 - **Scikit-learn**: For machine learning utilities.
 
+
+project/
+│
+├── main.py                       # The main script to run the application
+├── knowledge_base.py              # Script for knowledge base parsing
+├── form_fields_extractor.py       # Script for extracting form fields from PDF
+├── bert_encoder.py                # Script for BERT text encoding
+├── form_mapping.py                # Script for mapping form fields to knowledge base
+├── pdf_processing.py              # Script for PDF to image conversion and image preprocessing
+├── ocr_utils.py                   # Script for OCR-related functions (detecting cells, reading text, etc.)
+└── utils.py                       # Miscellaneous utilities (text formatting, putting text in boxes, etc.)
+
 ## Installation
 
 1. Clone the repository:
