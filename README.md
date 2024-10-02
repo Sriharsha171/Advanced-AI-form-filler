@@ -22,20 +22,6 @@ This the advanced version of using AI to fill the forms
 - **Scikit-learn**: For machine learning utilities.
 
 
-AI-firm-filler-advanced/
-
-
-├── main.py                       
-├── knowledge_base.py             
-├── form_fields_extractor.py       
-├── bert_encoder.py               
-├── form_mapping.py                
-├── pdf_processing.py           
-├── ocr_utils.py                   
-└── utils.py                       
-
-## Set the directory as shown above.
-
 ## run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
 
 
