@@ -17,14 +17,13 @@ This the advanced version of using AI to fill the forms
 - **OpenCV**: For image processing.
 - **Pytesseract**: For optical character recognition (OCR).
 - **Pillow (PIL)**: For image manipulation.
-- **Transformers**: For natural language processing (BERT).
 - **NumPy**: For numerical operations.
 - **Scikit-learn**: For machine learning utilities.
 
 
-Run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
-Run the app.py file to use the webapp
-Change your path driectories
+- Run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
+- Run the app.py file to use the webapp.
+- Change your path driectories.
 
 
 
