@@ -11,9 +11,9 @@ from mapping import map_fields_to_knowledge_base
 from pdf2img import pdf_to_images
 
 if __name__ == "__main__":
-    pdf_path = r"C:\Users\bksh1\Desktop\Advanced-AI-form-filler-main\ai\forms\Dummy_Questionnaire.pdf"
+    pdf_path = "Dummy_Questionnaire.pdf"
     output_dir = "outputs"
-    knowledge_base_path = r"C:\Users\bksh1\Desktop\Advanced-AI-form-filler-main\ai\data\Dummy_data.txt"
+    knowledge_base_path = "Dummy_data.txt"
     form_fields = extract_form_fields_from_pdf(pdf_path)
 
     # Parse the knowledge base
