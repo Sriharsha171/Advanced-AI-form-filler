@@ -19,7 +19,9 @@ This the advanced version of using AI to fill the forms
 - **Pillow (PIL)**: For image manipulation.
 - **NumPy**: For numerical operations.
 - **Scikit-learn**: For machine learning utilities.
+- **Flask**: For web app integration 
 
+## General info
 
 - Run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
 - Run the app.py file to use the webapp.
