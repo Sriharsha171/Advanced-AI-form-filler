@@ -10,7 +10,7 @@ from mapping import map_fields_to_knowledge_base
 from pdf2img import pdf_to_images
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = r'C:\Users\bksh1\Desktop\Advanced-AI-form-filler-main\ai\forms'
+app.config['UPLOAD_FOLDER'] = 'forms'
 app.config['OUTPUT_FOLDER'] = 'outputs/'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['OUTPUT_FOLDER'], exist_ok=True)
@@ -115,7 +115,7 @@ def upload_file():
     pdf_path = os.path.join(app.config['UPLOAD_FOLDER'], pdf_file.filename)
     pdf_file.save(pdf_path)
 
-    knowledge_base_path = r"C:\Users\bksh1\Desktop\Advanced-AI-form-filler-main\ai\data\Dummy_data.txt"
+    knowledge_base_path = "Dummy_data.txt"
     form_fields = extract_form_fields_from_pdf(pdf_path)
     knowledge_base = parse_knowledge_base(knowledge_base_path)
     field_mappings = map_fields_to_knowledge_base(form_fields, knowledge_base)
