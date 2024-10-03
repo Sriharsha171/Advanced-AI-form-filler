@@ -22,7 +22,9 @@ This the advanced version of using AI to fill the forms
 - **Scikit-learn**: For machine learning utilities.
 
 
-run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
+Run the main.py program the output folder will be created automatically if not create the output folder and replace the path of that folder in output path.
+Run the app.py file to use the webapp
+Change your path driectories
 
 
 
